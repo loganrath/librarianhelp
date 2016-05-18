@@ -1,7 +1,7 @@
 # Site settings
 title: Logan Rath
 email: lrath@brockport.edu
-url: http://logan.pw/librarianhelp/
+url: http://logan.pw/librarianhelp
 description: "Logan Rath"
 skills: "Librarian"
 meta_author: Logan Rath
@@ -24,10 +24,10 @@ disqus_shortname: loganrath
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 7399B8 #80B3FF
-  primary-rgb: "115,153,184" #"128,179,255"
-  secondary: E9F2EF #FD6E8A
-  secondary-dark: 98A5AA #A2122F
+  primary: 004158 #80B3FF
+  primary-rgb: "0,65,89" #"128,179,255"
+  secondary: 668d3c #FD6E8A
+  secondary-dark: 00533e #A2122F
 
 # Footer settings
 footer:
