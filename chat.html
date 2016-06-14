@@ -1,0 +1,15 @@
+---
+layout: page
+title: Chat
+comments: false
+---
+<div id="librarychat"></div>
+<script type="text/javascript" src="https://us.libraryh3lp.com/presence/jid/loganrath_q/chat.libraryh3lp.com/js"></script>
+<script type="text/javascript">
+if (jabber_resources[0].show=="available") {
+	document.getElementById("librarychat").innerHTML = "<iframe src=\"https://libraryh3lp.com/chat/dmlreference_q@chat.libraryh3lp.com?skin=14294&amp;theme=simpletext&amp;title=Ask+a+Librarian&amp;identity=Librarian&amp;sounds=true\" style=\"width:100%; height: 250px; margin-left: 0; border: 1px solid #ccc; margin-bottom:0.5em;\" frameborder=\"1\"></iframe>";
+}
+else {
+document.getElementById("librarychat").innerHTML ="<p style=\"text-align: center; font-size: 1.2rem !important;\"><a href=\"http://www.brockport.edu/library/ask\" target=\"_blank\"><i class=\"fa fa-comments\"></i> Who&rsquo;s Online?</a></p>";
+}
+</script>
