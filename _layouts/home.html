@@ -13,10 +13,10 @@ layout: compress
     {% include nav.html %}
     <!-- Header -->
     <header class="header flex" role="banner">
-        <div class="container animated fadeIn">
+        <div class="container">
             <div class="row">
                     <a href="{{ site.url }}">
-                        <img src="{{ site.logo }}" class="img-circle zoombtn animated rotateIn">
+                        <img src="{{ site.logo }}" class="img-circle zoombtn animated fadeIn">
                     </a>
                     <h3 class="title">
                         <a class="zoombtn" href="{{ site.url }}">
@@ -36,13 +36,10 @@ layout: compress
                          <a class="btn zoombtn" href="http://tiny.cc/meetlogan">
                          Meet with Me
                          </a>
-                         <a class="btn zoombtn" href="tel:15853952568">
-                         Call Me
+                         <a class="btn zoombtn" href="{{ site.url }}chat.html">
+                         Chat with Me
                          </a>
-                         <a class="btn zoombtn" href="sms:7162455599">
-                         Text Me
-                         </a>
-                 </h3>
+                    </h3>
                   <hr class="hr-line">
                     {% include social-links.html %}
             </div>
