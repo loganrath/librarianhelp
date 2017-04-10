@@ -1,13 +1,13 @@
 /* CSS Document */
 
-body {margin: 0; font-family: "Open Sans"; background-color: #e2e2d4}
+body {margin: 0; font-family: "Open Sans"; background-color: #fff}
 
 header {background-color: #4376b9; color: white; border-bottom: 0.5em solid #FFD100; margin-bottom: 0.5em; padding-top: 0.2em;}
 header h1 {line-height: 1em;}
 
 header .name {font-family: Bitter}
 
-#content-wrapper {background-color: #e2e2d4; min-width: 960px; padding: 0 1em; line-height: 1.5em;}
+#content-wrapper {background-color: #fff; min-width: 960px; padding: 0 1em; line-height: 1.5em;}
 #content {width: 95%; margin-left: auto; margin-right: auto; padding-left: 1em; padding-right: 1em;}
 #content a:link, #content a:visited {color: #005899;}
 #content a:hover {color: #ffc726;}
@@ -23,7 +23,7 @@ header .name {font-family: Bitter}
 .narrow {float: left; width: 22%; margin-right: 2%;}
 
 .box {background-color: white; border: 1px solid #ccc; margin-top: 0.5em; margin-bottom: 1em;}
-.box h3 {margin: 0; padding: 0.25em; padding-left: 0.5em; background-color: #00533e; color: white; font-weight: 600;}
+.box h3 {margin: 0; padding: 0.25em; padding-left: 0.5em; background-color: #334d6c; color: white; font-weight: 600;}
 .box ul {margin-top: 0.5em; list-style-type: none; }
 .box h4 {padding-left: 0.5em;}
 .box ol {margin-top:0;}
