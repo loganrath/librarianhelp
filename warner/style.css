@@ -27,6 +27,7 @@ header .name {font-family: Bitter}
 .box ul {margin-top: 0.5em; list-style-type: none; }
 .box h4 {padding-left: 0.5em; margin-bottom: 0;}
 .box ol {margin-top:0;}
+.box ul ul {margin-top: 0; margin-bottom: 0.5em;}
 
 .clear {clear: both;}
 .center {text-align: center;}
