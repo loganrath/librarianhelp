@@ -7,8 +7,6 @@ body {margin: 0; font-family: "Open Sans"; background-color: #fff}
 header {background-color: #00533e; color: white; border-bottom: 0.5em solid #FFD100; margin-bottom: 0.5em; padding-top: 0.2em;}
 header h1 {line-height: 1em;}
 
-header h1 {font-family: "Open Sans", sans-serif;  }
-
 #content-wrapper {background-color: #fff; min-width: 960px; padding: 0 1em; line-height: 1.5em;}
 #content {width: 95%; margin-left: auto; margin-right: auto; padding-left: 1em; padding-right: 1em;}
 #content a:link, #content a:visited {color: #005899;}
