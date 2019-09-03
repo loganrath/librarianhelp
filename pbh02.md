@@ -1,13 +1,7 @@
 ---
 title: PBH 495.02
-layout: classlinks2
-
-link_1_name:Poll Everywhere
-link_1_link:http://pollev.com/brockport
-
-link_2_name:Padlet - PBH 495.02
-link_2_link:https://padlet.com/loganrath/7kzauddn7u0d
-
-link_3_name:Ask a Librarian
-link_3_link:https://brockport.edu/library/ask
+layout: classlinks
 ---
+<p style="margin-bottom: 2em;"><a class="button" target="_blank" href="http://pollev.com/brockport">Poll Everywhere</a></p>
+<p style="margin-top: 2em; margin-bottom: 2em;"><a class="button" target="_blank" href="https://padlet.com/loganrath/7kzauddn7u0d">Padlet - PBH 495.02</a></p>
+<p><a class="button" target="_blank" href="https://brockport.edu/library/ask">Ask a Librarian</a></p>
