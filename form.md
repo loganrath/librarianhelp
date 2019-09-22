@@ -1,6 +1,6 @@
 ---
 layout: classlink
-title: Construct Feedback Form
+title: Make a Form
 ---
 <form action="https://forms.brockport.edu/view.php" method="get" />
 <input type="hidden" name="id" value="3544702" />
@@ -9,3 +9,4 @@ title: Construct Feedback Form
 <label for="element_2">Professor: </label><input type="text" name="element_2" />
 <br /><br />
 <input type="submit" value="go" />
+</form>
