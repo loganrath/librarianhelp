@@ -16,7 +16,7 @@ body {background-color: #f5f5f5}
 
 .contact-info .fa {margin-right: 0.5em;}
 
-.education-container {line-height:1em;}
+.education-container p {line-height:1em !important;}
 .fa-75x {
   font-size: .75em;
 }
