@@ -11,6 +11,8 @@ body {background-color: #f5f5f5}
 
 .contact-info a:link, .contact-info a:visited {color: white;}
 
+.contact-info .fa {margin-right: 0.5em;}
+
 .fa-75x {
   font-size: .75em;
 }
