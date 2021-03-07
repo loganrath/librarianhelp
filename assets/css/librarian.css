@@ -5,6 +5,12 @@ body {background-color: #f5f5f5}
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.contact-info {
+
+}
+
+.contact-info a:link, .contact-info a:visited {color: white;}
+
 .fa-75x {
   font-size: .75em;
 }
