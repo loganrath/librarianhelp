@@ -1,12 +1,29 @@
-# Site settings
-title: "Logan Rath"
+
+title: My Resume
+url: 'http://librarian.help'
+baseurl: '' #change it according to your repository name
+
+
+# Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
+#style: styles-2 #mint
+#style: styles-3 #darkgreen
+#style: styles-4 #purple
+#style: styles-5 #orange
+#style: styles-6 #darkblue
+#style: styles #custom
+
+
+#Profile information
+name: Logan Rath
+tagline: Associate Librarian
+pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+#sidebar links
 email: lrath@brockport.edu
-description: > # this means to ignore newlines until "baseurl:"
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://librarian.help" # the base hostname & protocol for your site
+phone: 585-395-2568
+website: librarian.help  #do not add http://
+linkedin: loganrath
+github: loganrath
+twitter: '@loganrath'
 
-twitter_username: loganrath
-github_username: loganrath
-
-# Build settings
-markdown: kramdown
+#Update all the sections by editing the files inside _includes folder.
