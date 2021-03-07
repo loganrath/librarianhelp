@@ -1,14 +1,40 @@
-# Creative Theme for Jekyll
+This theme is designed by Xiaoying Riley at 3rd Wave Media (http://themes.3rdwavemedia.com/). Visit her website for more themes [http://themes.3rdwavemedia.com/](http://themes.3rdwavemedia.com/)
 
-A Jekyll implementation of the [Creative Theme](http://startbootstrap.com/template-overviews/creative/) template by [Start Bootstrap](http://startbootstrap.com).
 
-Creative is a one page Bootstrap theme for creatives, small businesses, and other multipurpose uses.
-The theme includes a number of rich features and plugins that you can use as a great boilerplate for your next Jekyll project! 
+I have made this into a Jekyll Theme.
+**Demo:** [http://webjeda.com/online-cv/](http://webjeda.com/online-cv/)
 
-See it live in action at <https://volny.github.io/creative-theme-jekyll/>
+The default theme would look like this
 
-## To use the Creative Theme template in your project
+![online cv Jekyll theme](/assets/images/online-cv-jekyll-theme.png)
 
-- Start by adding your info in `_config.yml`
-- In `_layouts/front.html` reorder or remove section as you prefer.
+The theme is responsive
 
+![online cv responsive Jekyll theme](/assets/images/online-cv-responsive-jekyll-theme.png)
+
+There are 6 color schemes available
+
+![online cv Jekyll theme](/assets/images/online-cv-jekyll-theme-2.png)
+
+# Installation: 
+Fork the ``master`` branch and delete ``gh-pages`` branch in it. This is important because ``gh-pages`` branch is used here only to host the blog. You should be using the master branch as the source and create a fresh ``gh-pages`` branch.
+
+[Watch my video on instlallation](https://www.youtube.com/embed/T2nx6tj-ZH4)
+
+
+## How to delete old **gh-pages** branch?
+After forking the repository, click on **branches**.
+
+![delete gh-pages branch](http://blog.webjeda.com/images/delete-github-branch.png)
+
+Delete ``gh-pages`` branch.
+![delete gh-pages branch](http://blog.webjeda.com/images/delete-github-branch-2.png)
+
+You have to create a new ``gh-pages`` branch using the master branch. Go back to the forked repository and create ``gh-pages`` branch.
+
+![create gh-pages branch](http://blog.webjeda.com/images/create-gh-pages-branch.JPG)
+
+Now, go to settings and check the **Github Pages** section. You should see a URL where the blog is hosted. If not select a branch as source.
+
+
+Check out for more themes: [**Jekyll Themes**](http://blog.webjeda.com/jekyll-themes)
