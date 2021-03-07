@@ -5,8 +5,10 @@ body {background-color: #f5f5f5}
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.profile {margin: -0.9em; padding: 0.9em;}
+
 .contact-info {
-  line-height: 1.5em;
+  line-height: 2em;
 }
 
 .contact-info a:link, .contact-info a:visited {color: white;}
