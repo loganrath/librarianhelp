@@ -10,7 +10,7 @@ baseurl: '' #change it according to your repository name
 #style: styles-4 #purple
 #style: styles-5 #orange
 #style: styles-6 #darkblue
-style: styles #custom
+#style: styles #custom
 
 
 #Profile information
