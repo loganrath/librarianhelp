@@ -1,5 +1,5 @@
 ---
-title: PBH 495.03
+title: Example Page
 layout: classlinks2
 
 links: [
