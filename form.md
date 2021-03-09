@@ -1,5 +1,5 @@
 ---
-layout: classlink
+layout: classlinks
 title: Construct Feedback Form
 ---
 <form action="https://forms.brockport.edu/view.php" method="get" />
