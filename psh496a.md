@@ -1,6 +1,6 @@
 ---
-title: "PSH 496 Resource Links"
-layout: classlinks2
+title: PSH 496
+layout: classlinks
 links:
   - name: Poll Everywhere
     url: https://PollEv.com/logan9
