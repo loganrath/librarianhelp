@@ -8,10 +8,11 @@
 <header>
 <h1 style="text-align: center;">Links for {{ page.title }}</h1>
 </header>
+
 <div id="content-wrapper"><div id="content" style="text-align: center;">
-<p><a href="{{ page.link_1_link }}">{{ page.link_1_name }}</a></p>
-<p><a href="{{ page.link_2_link }}">{{ page.link_2_name }}</a></p>
-<p><a href="{{ page.link_3_link }}">{{ page.link_3_name }}</a></p>
+	{% for link in page.links %}
+	<p><a href="{{ team_member.name }}">{{link.name}}</a></p>
+	{% endfor %}
 </div></div>
 </body>
 </html>
