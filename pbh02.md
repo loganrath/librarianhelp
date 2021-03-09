@@ -1,6 +1,6 @@
 ---
 title: PBH 495.02
-layout: classlinks
+layout: classlinks2
 ---
 <p><a class="button" target="_blank" href="http://pollev.com/brockport">Poll Everywhere</a></p>
 <p><a class="button" target="_blank" href="https://padlet.com/loganrath/7kzauddn7u0d">Padlet - PBH 495.02</a></p>
