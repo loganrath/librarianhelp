@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {font-family: "Playfair Display",Georgia,"Times New Roman
   line-height: 2em;
 }
 
-a i {text-decoration: none !important;}
+a i, a:hover i {text-decoration: none !important;}
 
 .contact-info a:link, .contact-info a:visited {color: white;}
 
