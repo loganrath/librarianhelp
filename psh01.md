@@ -1,15 +1,6 @@
 ---
 title: PSH 496
-layout: classlinks2
-links:
-  - name: "Poll Everywhere"
-    url: https://PollEv.com/logan9
-  - name: "One Note"
-    url: https://brockportsuny-my.sharepoint.com/:o:/g/personal/lrath_brockport_edu/Es0l3XdRCtZInRPaja2bz6UBSjIkCUSyAYlkI93jg5gqww?e=umivjb
-  - name: "Research Guide for Psychology"
-  	url: https://library.brockport.edu/psychology
-  - name: "Feedback Form"
-    url: https://acrl.projectoutcome.org/responses/39543
+layout: classlinks
 ---
 <p><a class="button" target="_blank" href="http://pollev.com/logan9">Poll Everywhere</a></p>
 <p><a class="button" target="_blank" href="https://brockportsuny-my.sharepoint.com/:o:/g/personal/lrath_brockport_edu/Es0l3XdRCtZInRPaja2bz6UBSjIkCUSyAYlkI93jg5gqww?e=umivjb">One Note</a></p>
