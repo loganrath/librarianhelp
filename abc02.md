@@ -1,7 +1,6 @@
 ---
 title: Example Page
 layout: classlinks2
-
 links:
   - name: "Poll Everywhere"
     url: https://PollEv.com/logan9
