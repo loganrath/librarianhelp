@@ -2,7 +2,7 @@
 title: Example Page 02
 layout: classlinks2
 links:
-  - name: Padlet
+  - name: "Poll Everywhere"
     url: https://PollEv.com/logan9
   - name: "One Note"
     url: https://brockportsuny-my.sharepoint.com/:o:/g/personal/lrath_brockport_edu/Es0l3XdRCtZInRPaja2bz6UBSjIkCUSyAYlkI93jg5gqww?e=umivjb
