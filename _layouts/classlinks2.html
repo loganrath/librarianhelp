@@ -10,11 +10,17 @@
 </header>
 <div id="content-wrapper"><div id="content" style="text-align: center;">
 
-	{% for menu_link in page.links %}
-	  {% for item in links %}
-	    <div><a href="{{ item[1] }}">{{ item[0] }}</a></div>
+	<ul class="job-listing">
+	  {% for block in page.links %}
+	    <a href="{{ block.url }}">
+	      <li>
+	        <div class="job-title">
+	          {{ block.name }}
+	        </div>
+	      </li>
+	    </a>
 	  {% endfor %}
-	{% endfor %}
+	</ul>
 
 {{ content }}
 </div></div>
