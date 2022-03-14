@@ -1,7 +1,6 @@
 ---
-title: Example Page
+title: Example Page 03
 layout: classlinks2
-
 links:
   - name: "Poll Everywhere"
     url: https://PollEv.com/logan9
@@ -11,6 +10,5 @@ links:
   	url: https://library.brockport.edu/psychology
   - name: "Feedback Form"
     url: https://acrl.projectoutcome.org/responses/39543
-
 ---
-Test Content
+Test Content #3
