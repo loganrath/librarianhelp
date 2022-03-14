@@ -1,6 +1,6 @@
 ---
 title: Example Page
-layout: classlinks2
+layout: classlinks1
 
 links:
   - name: "Poll Everywhere"
@@ -13,3 +13,4 @@ links:
     url: https://acrl.projectoutcome.org/responses/39543
 
 ---
+Test Content
