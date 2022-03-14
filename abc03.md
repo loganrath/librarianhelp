@@ -1,6 +1,6 @@
 ---
 title: Example Page
-layout: classlinks1
+layout: classlinks2
 
 links:
   - name: "Poll Everywhere"
