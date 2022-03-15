@@ -1,4 +1,4 @@
-/*   
+/*
  * Template Name: PrettyDocs - Bootstrap 4 Template for documentations
  * Version: 2.3
  * Author: Xiaoying Riley
@@ -1033,7 +1033,7 @@ select {
   top: 15px;
 }
 
-.affix, 
+.affix,
 .affix-bottom {
   width: 230px;
 }
@@ -1312,7 +1312,7 @@ select {
 }
 
 .cards-section .item .icon {
-  font-size: 36px;
+  font-size: 64px;
 }
 
 .cards-section .item .title {
