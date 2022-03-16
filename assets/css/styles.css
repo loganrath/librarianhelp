@@ -1312,7 +1312,7 @@ select {
 }
 
 .cards-section .item .icon {
-  font-size: 64px;
+  font-size: 64px; //edited
 }
 
 .cards-section .item .title {
