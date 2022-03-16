@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Logan Rath, Librarian</title>
+    <title>{{ page.title }}</title>
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,3 +21,46 @@
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
 
 </head>
+<body class="body-{{ page.color }}">
+    <div class="page-wrapper">
+        <!-- ******Header****** -->
+        <header id="header" class="header">
+            <div class="container">
+                <div class="branding">
+                    <h1 class="logo">
+                        <a href="index.html">
+                            <span aria-hidden="true" class="icon_documents_alt icon"></span>
+                            <span class="text-highlight">Librarian</span><span class="text-bold">Help</span>
+                        </a>
+                    </h1>
+                </div><!--//branding-->
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active">{{ page.title }}</li>
+                </ol>
+            </div><!--//container-->
+        </header><!--//header-->
+        {{ content }}
+
+      </div><!--//page-wrapper-->
+
+      <footer id="footer" class="footer text-center">
+          <div class="container">
+              <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
+              <small class="copyright">Theme designed with <i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com/" target="_blank">Xiaoying Riley</a> for developers</small>
+
+          </div><!--//container-->
+      </footer><!--//footer-->
+
+
+      <!-- Main Javascript -->
+      <script type="text/javascript" src="assets/plugins/jquery-3.4.1.min.js"></script>
+      <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="assets/plugins/prism/prism.js"></script>
+      <script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>
+      <script type="text/javascript" src="assets/plugins/lightbox/dist/ekko-lightbox.min.js"></script>
+      <script type="text/javascript" src="assets/plugins/stickyfill/dist/stickyfill.min.js"></script>
+      <script type="text/javascript" src="assets/js/main.js"></script>
+
+  </body>
+  </html>
