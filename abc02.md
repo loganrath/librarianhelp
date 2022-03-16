@@ -1,6 +1,6 @@
 ---
 title: Example Page 02
-layout: classlinks2
+layout: yamlinks
 links:
   - name: "Poll Everywhere"
     url: https://PollEv.com/logan9

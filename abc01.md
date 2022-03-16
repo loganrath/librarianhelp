@@ -1,6 +1,6 @@
 ---
 title: Example Page
-layout: classlinks2
+layout: yamlinks
 links:
   - name: Padlet
     url: https://www.padlet.com
@@ -9,4 +9,3 @@ links:
   - name: "Logan's Zoom"
     url: https://www.loganrath.com/zoom
 ---
-Test Content
