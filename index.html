@@ -154,7 +154,7 @@
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
-          <form id="enterCourseCode" action="javascript:function gotoCode(){var e="https://www.librarian.help/"+document.getElementById("classcode").value.toLowerCase();document.getElementById("enterCourseCode").action=e}">
+          <form id="enterCourseCode" action="javascript:void();" onsubmit="javascript:gotoCode();">
           <div class="modal-body">
               <label for="classcode">Enter the code in the box below and then press go</label>
               <input id="classcode" type="text" class="d-block mx-auto text-center w-75" style="font-size: 36px;"/>
@@ -182,6 +182,14 @@
     <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="assets/plugins/stickyfill/dist/stickyfill.min.js"></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
+
+<script>
+function gotoCode() {
+  var code = document.getElementById("classcode").value.toLowerCase();
+  var action = "https://www.librarian.help/" + code;
+  document.getElementById("enterCourseCode").action = action;
+}
+</script>
 
 </body>
 </html>
