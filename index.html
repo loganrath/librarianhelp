@@ -75,7 +75,9 @@
                 <div class="intro">
                     <p>Use any of the sources below to get help with your project.</p>
                     <div class="cta-container">
-                        <a class="btn btn-primary btn-cta" href="https://library.brockport.edu/prf.php?account_id=456" target="_blank" style="font-size: 24px;"><i class="fa fa-regular fa-calendar-plus"></i> Schedule a Meeting</a>
+                      <button type="button" class="btn btn-primary btn-cta" data-toggle="modal" data-target="#classPages">
+                        <i class="fa-solid fa-screen-users "></i> Class Pages
+                      </button>
                     </div><!--//cta-container-->
                 </div><!--//intro-->
                 <div id="cards-wrapper" class="cards-wrapper row">
@@ -144,6 +146,29 @@
             </div><!--//container-->
         </section><!--//cards-section-->
     </div><!--//page-wrapper-->
+
+    <!-- Button trigger modal -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="classPages" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <footer class="footer text-center">
         <div class="container">
