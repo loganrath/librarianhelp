@@ -154,7 +154,7 @@
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
-          <form id="enterCourseCode">
+          <form id="enterCourseCode" action="javascript:function gotoCode(){var e="https://www.librarian.help/"+document.getElementById("classcode").value.toLowerCase();document.getElementById("enterCourseCode").action=e}">
           <div class="modal-body">
               <label for="classcode">Enter the code in the box below and then press go</label>
               <input id="classcode" type="text" class="d-block mx-auto text-center w-75" style="font-size: 36px;"/>
